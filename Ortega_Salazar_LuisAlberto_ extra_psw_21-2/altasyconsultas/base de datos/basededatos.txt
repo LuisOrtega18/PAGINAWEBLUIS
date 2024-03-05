@@ -1,0 +1,6 @@
+ create table trabajadores (
+    -> id_tra int (20) PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    ->  nom_tra varchar(30) not null,
+    -> pass_tra varchar(20) not null,
+    -> puesto_tra varchar(20) not null,
+    -> sueldo_tra int (100) not null);
